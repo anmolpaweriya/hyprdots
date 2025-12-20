@@ -8,7 +8,7 @@ A **feature-rich Hyprland** dotfiles setup focused on productivity, aesthetics, 
 ---
  
 
-## 📦 Requirements
+## Requirements
 
 Before installing, make sure you have:
 
@@ -20,7 +20,7 @@ Before installing, make sure you have:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone the repository and run the installer:
 

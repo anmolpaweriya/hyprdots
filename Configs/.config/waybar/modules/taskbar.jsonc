@@ -11,8 +11,7 @@
 			"Alacritty"
 		],
 		"app_ids-mapping": {
-			"firefoxdeveloperedition": "firefox-developer-edition",
-      "jetbrains-datagrip": "DataGrip"
+			"firefoxdeveloperedition": "firefox-developer-edition"
 		}
 	},
 

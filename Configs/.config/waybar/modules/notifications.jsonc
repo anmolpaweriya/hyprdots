@@ -1,6 +1,5 @@
     "custom/notifications": {
-      // "format": "{icon} {}",
-        "format": "{} {icon}", // TODO: workaround for the module not showing up // revert when fixed
+        "format": "{icon} {}",
         "rotate": ${r_deg},
         "format-icons": {
             "email-notification": "<span foreground='white'><sup></sup></span>",
@@ -13,17 +12,16 @@
             "music-notification": "󰝚<span foreground='white'><sup></sup></span>",
             "volume-notification": "󰕿<span foreground='white'><sup></sup></span>",
             "notification": "<span foreground='white'><sup></sup></span>",
-            "dnd": "",
             "none": ""
         },
         "return-type": "json",
         "exec-if": "which dunstctl",
         "exec": "notifications.py",
-        "on-scroll-down": "sleep 0.1 && dunstctl history-pop",
-        "on-click": "dunstctl set-paused toggle",
+        "on-click": "sleep 0.1 && dunstctl history-pop",
         "on-click-middle": "dunstctl history-clear",
         "on-click-right": "dunstctl close-all",
         "interval": 1,
         "tooltip": true,
         "escape": true
     },
+

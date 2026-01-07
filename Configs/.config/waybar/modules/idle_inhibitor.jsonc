@@ -2,10 +2,8 @@
         "format": "{icon}",
         "rotate": ${r_deg},
         "format-icons": {
-            "activated": "",
-            "deactivated": "󰛊"
-        },
-        "tooltip-format-activated":"Caffeine Mode Active",
-        "tooltip-format-deactivated":"Caffeine Mode Inactive"
+            "activated": "󰥔",
+            "deactivated": ""
+        }
     },
 

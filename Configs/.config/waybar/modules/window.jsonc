@@ -3,18 +3,15 @@
         "rotate": ${r_deg},
         "separate-outputs": true,
         "rewrite": {
-            "(.*)${USER}@${set_sysname}:(.*)": "$1  :$2",
+            "${USER}@${set_sysname}:(.*)": "$1 ",
             "(.*) — Mozilla Firefox": "$1 󰈹",
-            "(.*)Mozilla Firefox": "$1 Firefox 󰈹",
+            "(.*)Mozilla Firefox": "Firefox 󰈹",
             "(.*) - Visual Studio Code": "$1 󰨞",
-            "(.*)Visual Studio Code": "$1 Code 󰨞",
+            "(.*)Visual Studio Code": "Code 󰨞",
             "(.*) — Dolphin": "$1 󰉋",
-            "(.*)Spotify.*": "$1 Spotify 󰓇",
-            "(.*)Steam": "$1 Steam 󰓓",
-            "(.*) - Discord": "$1  ",
-            "(.*?)-\\s*YouTube(.*)": "$1󰗃", 
-            "(.*?\\s)YouTube(.*)": "$1YouTube 󰗃"
+            "(.*)Spotify": "Spotify 󰓇",
+            "(.*)Steam": "Steam 󰓓"
         },
-        "max-length": 50
+        "max-length": 1000
     },
 
